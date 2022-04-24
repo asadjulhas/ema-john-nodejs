@@ -1,0 +1,5 @@
+.order_page {
+	display: flex;
+	justify-content: center;
+	column-gap: 80px;
+}

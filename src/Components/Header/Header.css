@@ -1,0 +1,25 @@
+.nav_area {
+	background: #1C2B35;
+}
+
+.nav_area {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 50px;
+	align-items: center;
+}
+.menuA-area {
+	display: flex;
+}
+.menuA-area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 20px;
+}
+.menuA-area a:hover{
+  color: orange;
+}
+.user_info p {
+	color: #fff;
+}

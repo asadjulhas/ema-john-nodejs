@@ -1,0 +1,112 @@
+
+.product_img img {
+  width: 186px;
+}
+.product_img {
+  background: #ECEFF1;
+  border-radius: 8px;
+}
+.product {
+	width: 200px;
+	border: 1px solid #95A0A7;
+	padding: 5px;
+	border-radius: 8px;
+	padding-bottom: 0;
+	position: relative;
+}
+.product_details {
+  text-align: left;
+  padding: 10px;
+}
+.product_details h4 {
+  color: #0E161A;
+  font-size: 21px;
+  margin: 0;
+  font-weight: 400;
+}
+.product_details h5 {
+  color: #0E161A;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.product_details p {
+  color: #2A414F;
+  font-size: 12px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.product button {
+	background: #FFE0B3;
+	border: none;
+	width: 210px;
+	border-top: 1px solid #95A0A7;
+	color: #0E161A;
+	font-size: 15px;
+	height: 48px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.product button img {
+  width: 14px;
+  padding-top: 1px;
+}
+.product button:hover{
+ background: #FF3030;
+}
+.product_details button {
+	position: inherit;
+	width: 101px !important;
+	border: navajowhite;
+	margin-bottom: 53px;
+	border-radius: 4px;
+	background: #FF3030;
+	color: #fff;
+	height: 35px;
+}
+
+/* Responsive css */
+
+
+@media only screen and (min-width: 1430px) {
+  .product {
+    width: 300px;
+  }
+  .product button {
+    width: 310px; 
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) { 
+  .product {
+    width: 250px;
+  }
+  .product button {
+    width: 260px; 
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) { 
+
+}
+
+@media only screen and (max-width: 767px) {
+  .product {
+    width: 300px;
+  }
+  .product button {
+    width: 310px; 
+  }
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  
+}

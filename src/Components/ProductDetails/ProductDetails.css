@@ -1,0 +1,29 @@
+.single_product_page {
+	display: flex;
+	column-gap: 16px;
+}
+.single_product {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid #95A0A7;
+	padding: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	padding-bottom: 0;
+	position: relative;
+	margin-top: 60px;
+  height: 600px;
+}
+.single_product > .product_img img {
+	width: 300px;
+}
+.de_add_to_cart {
+	background: #FFE0B3;
+	border: none;
+	width: 250px;
+	color: #0E161A;
+	font-size: 15px;
+	height: 55px;
+	cursor: pointer;
+	border-radius: 3px;
+}
